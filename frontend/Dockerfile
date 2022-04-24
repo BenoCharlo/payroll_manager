@@ -8,11 +8,10 @@ WORKDIR /frontend
 ENV PATH /frontend/node_modules/.bin:$PATH
 
 # install frontend dependencies
-COPY package.json ./
-COPY package-lock.json ./
+COPY ./package.json ./
 RUN npm install -g typescript
 RUN npm install -g ts-node
-RUN npm install --silent
+RUN npm install
 
 # add frontend
 COPY . ./
