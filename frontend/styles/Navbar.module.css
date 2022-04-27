@@ -1,0 +1,30 @@
+.nav {   
+    height: 50px;
+    background: dodgerblue;
+    
+}
+
+.nav__menu {
+    list-style-type: none;
+    background: dodgerblue;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    margin: 0;
+ }
+
+.menu__item {
+    margin-left: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.menu__item:hover {
+    background-color: rgb(85, 80, 80);
+    border-radius: 5%;
+    opacity: 0.8;
+    color: black
+}
