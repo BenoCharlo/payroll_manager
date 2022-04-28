@@ -15,7 +15,9 @@ export const Navbar = () => {
           <h3>MY COMPANY</h3>
         </li>
         <li className={styles.menu__item}>
-        <span className={styles.icon}><MdOutlineAvTimer /></span>
+          <span className={styles.icon}>
+            <MdOutlineAvTimer /> 
+          </span>
           Leave Balance
           </li>
         <li className={styles.menu__item}>
