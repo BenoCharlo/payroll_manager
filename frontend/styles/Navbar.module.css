@@ -1,12 +1,12 @@
 .nav {   
-    height: 50px;
-    background: dodgerblue;
+    height: 60px;
+    background: whitesmoke;
     
 }
 
 .nav__menu {
     list-style-type: none;
-    background: dodgerblue;
+    background: whitesmoke;
     height: 100%;
     display: flex;
     justify-content: right;
@@ -18,16 +18,22 @@
 .menu__item {
     margin-left: 10px;
     font-size: 16px;
-    color: whitesmoke;
+    color: dodgerblue;
     cursor: pointer;
     padding: 16px;
 }
 
+.menu__item_push_right {
+    margin-right: auto;
+    padding: 16px;
+}
+
+
 .menu__item:hover {
     background-color: rgb(85, 80, 80);
-    border-radius: 5%;
+    border-radius: 10px;
     opacity: 0.8;
-    color: black
+    color: whitesmoke
 }
 
 .icon {
