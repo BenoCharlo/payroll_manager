@@ -1,8 +1,8 @@
-import styles from "../styles/Navbar.module.css"
-import {IoIosLogOut} from "react-icons/io"
-import {BiUser} from "react-icons/bi"
-import {MdOutlineAvTimer} from "react-icons/md"
-import {GiHamburgerMenu} from "react-icons/gi"
+import styles from "../styles/Navbar.module.css";
+import { IoIosLogOut } from "react-icons/io";
+import { BiUser } from "react-icons/bi";
+import { MdOutlineAvTimer } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Navbar = () => {
   return (
@@ -16,21 +16,23 @@ export const Navbar = () => {
         </li>
         <li className={styles.menu__item}>
           <span className={styles.icon}>
-            <MdOutlineAvTimer /> 
+            <MdOutlineAvTimer />
           </span>
           Leave Balance
-          </li>
+        </li>
         <li className={styles.menu__item}>
-        <span className={styles.icon}><BiUser /></span>
+          <span className={styles.icon}>
+            <BiUser />
+          </span>
           Username
-          </li>
+        </li>
         <li className={styles.menu__item}>
-        <span className={styles.icon}><IoIosLogOut /></span>
+          <span className={styles.icon}>
+            <IoIosLogOut />
+          </span>
           Sign Out
-          </li>
+        </li>
       </ul>
     </div>
-  )
-}
-
-
+  );
+};
