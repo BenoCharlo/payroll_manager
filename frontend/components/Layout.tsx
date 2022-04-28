@@ -11,6 +11,5 @@ export default function Layout({children} : LayoutProps) {
       <Sidebar />
       {children}
     </div>
-        
   )
 }
