@@ -6,13 +6,13 @@ export const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
       <ul className={styles.sidebar__menu}>
-          <li className={styles.sidebar__item}>
+          <li className={styles.menu__item}>
           <span className={styles.icon}>
             <AiOutlineHome /> 
           </span>
               Home
             </li>
-          <li className={styles.sidebar__item}>
+          <li className={styles.menu__item}>
           <span className={styles.icon}>
             <AiTwotoneCalendar /> 
           </span>
