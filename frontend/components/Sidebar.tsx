@@ -1,24 +1,23 @@
-import styles from "../styles/sidebar.module.css"
-import {AiOutlineHome, AiTwotoneCalendar} from "react-icons/ai"
-
+import styles from "../styles/sidebar.module.css";
+import { AiOutlineHome, AiTwotoneCalendar } from "react-icons/ai";
 
 export const Sidebar = () => {
   return (
     <div className={styles.sidebar}>
       <ul className={styles.sidebar__menu}>
-          <li className={styles.menu__item}>
+        <li className={styles.menu__item}>
           <span className={styles.icon}>
-            <AiOutlineHome /> 
+            <AiOutlineHome />
           </span>
-              Home
-            </li>
-          <li className={styles.menu__item}>
+          Home
+        </li>
+        <li className={styles.menu__item}>
           <span className={styles.icon}>
-            <AiTwotoneCalendar /> 
+            <AiTwotoneCalendar />
           </span>
-              Leave dates
-            </li>
+          Leave dates
+        </li>
       </ul>
     </div>
-  )
-}
+  );
+};
