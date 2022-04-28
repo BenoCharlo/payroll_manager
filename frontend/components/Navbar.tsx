@@ -2,11 +2,15 @@ import styles from "../styles/Navbar.module.css"
 import {IoIosLogOut} from "react-icons/io"
 import {BiUser} from "react-icons/bi"
 import {MdOutlineAvTimer} from "react-icons/md"
+import {GiHamburgerMenu} from "react-icons/gi"
 
 export const Navbar = () => {
   return (
     <div className={styles.nav}>
       <ul className={styles.nav__menu}>
+        <button className={styles.btn}>
+          <GiHamburgerMenu />
+        </button>
         <li className={styles.menu__item_push_right}>
           <h3>MY COMPANY</h3>
         </li>
