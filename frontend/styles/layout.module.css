@@ -1,0 +1,31 @@
+.layout_display {
+    margin-left: 150px;
+}
+
+.display_username {
+    height: 120px;
+    background-color: antiquewhite;
+}
+
+.welcome_text {
+    margin: 0;
+    color:black;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 150px;
+}
+
+.subtitles {
+    padding-left: 150px;
+}
+
+.infos__menu {
+    list-style-type: none;
+}
+
+.menu__item {
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
